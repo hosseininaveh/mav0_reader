@@ -38,7 +38,7 @@ body.yaml  cam0  cam1  imu0  leica0  state_groundtruth_estimate0
 
 Make sure you have ROS2 installed and configured properly.
 
-#Usage:
+# Usage:
 
 Launch ROS2:
 ```ros2 run mav0_reader mav0_reader```
