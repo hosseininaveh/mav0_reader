@@ -1,4 +1,5 @@
 ## MAV0 Sequence Publisher
+EuRoC MAV dataset is a benchmarking dataset for monocular and stereo visual odometry that is captured from drone-mounted devices.
 
 # Overview:
 This Python script is designed to publish data from the MAV0 dataset using ROS2. It publishes images from two cameras, IMU data, UAV position, and state data.
@@ -22,16 +23,27 @@ cd ..
 rosdep install --from-paths src --ignore-src -y
 colcon build
 ```
+# preparing the data
+Start by downloading the dataset from here. 
+http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/
 
+Download the .zip file of a dataset you plan on using.
+
+After downloading and uncompressing it, you will find several directories under the mav0/ directory. move this folder to mav0_reader/data/ folder
+```
+$ ls mav0/
+body.yaml  cam0  cam1  imu0  leica0  state_groundtruth_estimate0
+
+```
 
 Make sure you have ROS2 installed and configured properly.
 
-Usage:
+#Usage:
 
-# Launch ROS2:
+Launch ROS2:
 ```ros2 run mav0_reader mav0_reader```
 
-The script will start publishing images, IMU data, UAV position, and state data.
+The script will start publishing images, IMU data, UAV position, and state data. you can use rviz2 to see the data.
 
 # Configuration:
 
