@@ -23,7 +23,7 @@ cd ..
 rosdep install --from-paths src --ignore-src -y
 colcon build
 ```
-# preparing the data
+# Preparing the data
 Start by downloading the dataset from here. 
 http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/
 
