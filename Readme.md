@@ -57,6 +57,5 @@ MIT
 
 # Related Publication
 
-If you use, mav0_reader, you may interested in running visual slam algorithmd. One of the best presented algorithm in this field s PKS. I am working to convert this algorithm from ROS 1 to ROS 2. please have a look at this algorithhm and cite it in your article:
-
+If you utilize MAV0 Reader, you might be interested in exploring the Visual SLAM algorithm. Among the most notable algorithms in this domain is ORB-SLAM 3. Our work focuses on enhancing the key frame selection component of this algorithm, incorporating photogrammetric principles within the PKS framework. Currently, I am engaged in adapting this algorithm from ROS 1 to ROS 2. I encourage you to review this algorithm and appropriately acknowledge it in your publication.
 ``` Azimi, A., Ahmadabadian, A.H. and Remondino, F., 2022. PKS: A photogrammetric key-frame selection method for visual-inertial systems built on ORB-SLAM3. ISPRS Journal of Photogrammetry and Remote Sensing, 191, pp.18-32.```
